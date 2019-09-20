@@ -1,4 +1,9 @@
+#Mac hidden file
 .DS_Store
+
+#packages
+package-lock.json
+package.json
 
 # Logs
 logs
