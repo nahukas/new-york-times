@@ -1,0 +1,20 @@
+/* header */
+header div {
+    display: inline-block;
+}
+
+.header-left p {
+    float: right;
+}
+
+.header-center {
+    float: left;
+}
+
+header img {
+    width: 25%;
+}
+
+.header-right {
+    float: right;
+}
