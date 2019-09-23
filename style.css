@@ -1,7 +1,7 @@
 /* General */
 
 * {
-  font-family: "Domine", serif; /*Franklink */
+  font-family: 'Domine', serif; /*Franklink */
 }
 
 /* header */
@@ -50,7 +50,7 @@
 }
 
 .header-section {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -84,7 +84,7 @@
 .header-right button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -126,14 +126,23 @@
   display: block;
   clear: both;
   margin: 0px 0px 15px 0px;
-  font-family: "Domine", serif;
+  font-family: 'Domine', serif;
   font-size: 20px;
   line-height: 30px;
 }
 
+.paragraph-text a {
+  color: #326891;
+}
+
+.paragraph-text h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 figure {
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 figure img {
@@ -180,11 +189,13 @@ figcaption {
 #social-date {
   float: left;
 }
-.social li {
+.social,
+.comments li {
   display: inline-block;
 }
 
-.social-buttons {
+.social-buttons,
+.comments {
   float: right;
   margin-bottom: 20px;
 }
@@ -219,12 +230,12 @@ figcaption {
 }
 
 .sign-up h2 {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   line-height: 24px;
 }
 
 .sign-up p {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-weight: 300;
   line-height: 20px;
   font-size: 12px;
@@ -234,7 +245,7 @@ figcaption {
 .sign-up button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -314,21 +325,21 @@ figcaption {
   width: 24%;
   float: left;
   margin-right: 1%;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   line-height: 16px;
 }
 
 .theory-info p {
-  font-size: 12px;
+  font-size: 0.8em;
   font-weight: 300;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
 }
 
 .theory-info span {
-  font-size: 12px;
+  font-size: 0.8em;
   font-weight: 700;
   margin-right: 3px;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
 }
 
 .theory-summary {
@@ -340,10 +351,47 @@ figcaption {
 
 #theory-info-row-1 {
   position: absolute;
-  top: 250px;
+  top: 33%;
 }
 #theory-info-row-2 {
   position: absolute;
-  top: 550px;
-  margin-bottom: 30px;
+  top: 75%;
+}
+
+#theory-hr {
+  width: 5%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #4d4d4d;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* video */
+
+.video {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.video iframe {
+  width: 100%;
+  height: 350px;
+}
+
+/* details */
+
+.details {
+  width: 50%;
+  margin: 30px auto;
+  font-size: 12px;
+  color: #999999;
+  line-height: 16px;
+}
+
+.comments {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
 }
