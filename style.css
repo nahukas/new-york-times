@@ -1,7 +1,7 @@
 /* General */
 
 * {
-  font-family: 'Domine', serif; /*Franklink */
+  font-family: "Domine", serif; /*Franklink */
 }
 
 /* header */
@@ -50,7 +50,7 @@
 }
 
 .header-section {
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -84,7 +84,7 @@
 .header-right button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -126,7 +126,7 @@
   display: block;
   clear: both;
   margin: 0px 0px 15px 0px;
-  font-family: 'Domine', serif;
+  font-family: "Domine", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -214,17 +214,17 @@ figcaption {
 .sign-up {
   position: absolute;
   left: 80%;
-  top: 267vh;
+  top: 170%;
   width: 15%;
 }
 
 .sign-up h2 {
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   line-height: 24px;
 }
 
 .sign-up p {
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   font-weight: 300;
   line-height: 20px;
   font-size: 12px;
@@ -234,7 +234,7 @@ figcaption {
 .sign-up button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -247,6 +247,30 @@ figcaption {
   text-transform: uppercase;
   width: 100%;
 }
+
+.editors-pick {
+  width: 100%;
+}
+
+.editors-pick figure img {
+  float: left;
+  position: relative;
+  width: 50%;
+}
+
+.editors-pick figure figcaption {
+  float: right;
+  position: relative;
+  width: 50%;
+}
+
+.editors-pick figure h2 {
+  float: right;
+  position: relative;
+  width: 50%;
+}
+
+/* something else */
 
 .theory {
   width: 70%;
