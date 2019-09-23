@@ -1,20 +1,158 @@
-/* header */
-header div {
-    display: inline-block;
+/* General */
+
+* {
+  font-family: 'Domine', serif; /*Franklink */
 }
 
-.header-left p {
-    float: right;
+/* header */
+.header {
+  height: 36px;
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+
+  color: #333333;
+  padding: 4px 15px 2px 15px;
+}
+
+.header div {
+  transition: all 0.6s ease 0s;
+}
+
+.wrapper {
+  max-width: 1605px;
+  min-width: 1000px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left ul {
+  padding-top: 1px;
+  list-style: none;
+}
+
+.header-li {
+  float: left;
+  display: list-item;
+  margin: 10px 10px;
+}
+
+.header-section {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 .header-center {
-    float: left;
+  width: 100%;
+  position: absolute;
 }
 
-header img {
-    width: 25%;
+.header-center span {
+  text-align: center;
+  display: block;
+}
+
+.header-center span svg {
+  height: 26px;
+  margin: 6px auto 0;
 }
 
 .header-right {
-    float: right;
+  float: right;
+  padding-top: 5px;
+  /*
+  position: absolute;
+  right: 10px;
+  top: 0;
+  */
+}
+
+.header-right button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Libre Franklin';
+  transition: ease 0.6s;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 11px;
+  padding: 8px 9px 6px;
+  text-transform: uppercase;
+}
+
+/* article */
+
+#main-article {
+  margin-top: 80px;
+}
+
+#main-article h1 {
+  width: 50%;
+  margin: 20px auto;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+/* Paragraph text */
+.paragraph-text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.paragraph-text p {
+  display: block;
+  margin: 0px 0px 15px 0px;
+  font-family: 'Domine', serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+figure {
+  width: 85%;
+  margin: 0 auto;
+}
+
+figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin-top: 5px;
+}
+.figcap1 {
+  color: #666666;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.figcap2 {
+  color: #888888;
+  font-size: 12px;
+}
+
+/* author */
+
+.author {
+  width: 50%;
+  margin: 0 auto;
 }
