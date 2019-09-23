@@ -1,7 +1,7 @@
 /* General */
 
 * {
-  font-family: "Domine", serif; /*Franklink */
+  font-family: 'Domine', serif; /*Franklink */
 }
 
 /* header */
@@ -50,7 +50,7 @@
 }
 
 .header-section {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -84,7 +84,7 @@
 .header-right button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -126,7 +126,7 @@
   display: block;
   clear: both;
   margin: 0px 0px 15px 0px;
-  font-family: "Domine", serif;
+  font-family: 'Domine', serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -219,12 +219,12 @@ figcaption {
 }
 
 .sign-up h2 {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   line-height: 24px;
 }
 
 .sign-up p {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-weight: 300;
   line-height: 20px;
   font-size: 12px;
@@ -234,7 +234,7 @@ figcaption {
 .sign-up button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -275,6 +275,13 @@ figcaption {
 .theory {
   width: 70%;
   margin: 20px auto;
+  position: relative;
+}
+
+.theory h2 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 15px;
 }
 
 .theory img {
@@ -282,12 +289,39 @@ figcaption {
 }
 
 .theory-info {
-  width: 23%;
+  width: 24%;
   float: left;
-  margin-right: 2%;
+  margin-right: 1%;
+  font-family: 'Libre Franklin';
+  line-height: 16px;
 }
 
-.theory-info-column {
-  margin-bottom: 40px;
-  height: 100%;
+.theory-info p {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Libre Franklin';
+}
+
+.theory-info span {
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 3px;
+  font-family: 'Libre Franklin';
+}
+
+.theory-summary {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#theory-info-row-1 {
+  position: absolute;
+  top: 250px;
+}
+#theory-info-row-2 {
+  position: absolute;
+  top: 550px;
+  margin-bottom: 30px;
 }
