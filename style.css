@@ -1,7 +1,7 @@
 /* General */
 
 * {
-  font-family: "Domine", serif; /*Franklink */
+  font-family: 'Domine', serif; /*Franklink */
 }
 
 /* header */
@@ -50,7 +50,7 @@
 }
 
 .header-section {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -84,7 +84,7 @@
 .header-right button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -126,7 +126,7 @@
   display: block;
   clear: both;
   margin: 0px 0px 15px 0px;
-  font-family: "Domine", serif;
+  font-family: 'Domine', serif;
   font-size: 20px;
   line-height: 30px;
   color: #333;
@@ -239,12 +239,12 @@ figcaption {
 }
 
 .sign-up h2 {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   line-height: 24px;
 }
 
 .sign-up p {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-weight: 300;
   line-height: 20px;
   font-size: 12px;
@@ -254,7 +254,7 @@ figcaption {
 .sign-up button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -336,21 +336,21 @@ figcaption {
   width: 24%;
   float: left;
   margin-right: 1%;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   line-height: 16px;
 }
 
 .theory-info p {
   font-size: 0.8em;
   font-weight: 300;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
 }
 
 .theory-info span {
   font-size: 0.8em;
   font-weight: 700;
   margin-right: 3px;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
 }
 
 .theory-summary {
@@ -410,7 +410,7 @@ figcaption {
 .comments button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   transition: ease 0.6s;
   background-color: #6288a5;
   border: 1px solid #326891;
@@ -435,7 +435,7 @@ figcaption {
 }
 
 .newsletter h2 {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-size: 18px;
   font-weight: 700;
   color: #000000;
@@ -449,7 +449,7 @@ figcaption {
 }
 
 .left span {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-weight: 400;
   font-size: 14px;
   color: #666666;
@@ -476,7 +476,7 @@ figcaption {
   float: left;
 }
 .signup-input button {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-size: 12px;
   font-weight: 700;
   height: 40px;
@@ -535,7 +535,7 @@ figcaption {
 }
 
 .more-space h2 {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-size: 14px;
   font-weight: 700;
   color: #000000;
@@ -553,7 +553,7 @@ figcaption {
 }
 
 .more-space-item h2 {
-  font-family: "Domine";
+  font-family: 'Domine';
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
@@ -597,7 +597,7 @@ figcaption {
 }
 
 .most-popular h2 {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-size: 14px;
   font-weight: 700;
   color: #333;
@@ -606,7 +606,7 @@ figcaption {
 
 .most-popular li {
   display: block;
-  border-top: 1px solid rgb(226, 226, 226);
+  border-top: 1px solid #e2e2e2;
   font-size: 16px;
   line-height: 25px;
   padding: 10px 0;
@@ -622,6 +622,7 @@ figcaption {
 footer {
   width: 95%;
   margin: 0 auto;
+  border-top: 1px solid #e2e2e2;
 }
 
 .header-footer {
@@ -637,6 +638,10 @@ footer {
 
 .header-footer a {
   float: right;
+  font-size: 10px;
+  color: #6288a5;
+  font-family: 'Libre Franklin';
+  font-weight: 400px;
 }
 
 .footer-left-list {
@@ -650,7 +655,7 @@ footer {
 }
 
 .footer-left-list li a {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-size: 13px;
   color: #000000;
   text-decoration: none;
@@ -661,7 +666,7 @@ footer {
 }
 
 h3 {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-size: 13px;
   font-weight: 700;
   color: #333;
@@ -674,7 +679,7 @@ h3 {
 }
 
 .subscribe li a {
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-size: 11px;
   color: #000000;
   text-decoration: none;
@@ -698,12 +703,13 @@ h3 {
 /* footer copyrights */
 .footer-bottom {
   clear: both;
-  font-family: "Libre Franklin";
+  font-family: 'Libre Franklin';
   font-size: 11px;
   text-decoration: none;
-  margin: 0 auto;
-  margin-top: 60px;
+  margin: 60px auto 30px auto;
   width: 95%;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
 }
 
 .footer-bottom a {
