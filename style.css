@@ -283,6 +283,7 @@ figcaption {
 
 .editors-pick figure {
   margin: 0;
+  display: inline-block;
 }
 
 .editors-pick figure img {
@@ -697,4 +698,20 @@ h3 {
 /* footer copyrights */
 .footer-bottom {
   clear: both;
+  font-family: "Libre Franklin";
+  font-size: 11px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 95%;
+}
+
+.footer-bottom a {
+  color: #999;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
 }
