@@ -49,6 +49,12 @@
   margin: 10px 10px;
 }
 
+.header-li a {
+  color: #000000;
+  text-decoration: none;
+  vertical-align: center;
+}
+
 .header-section {
   font-family: 'Libre Franklin';
   font-weight: 700;
