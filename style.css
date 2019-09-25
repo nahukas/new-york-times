@@ -80,11 +80,6 @@
 .header-right {
   float: right;
   padding-top: 5px;
-  /*
-  position: absolute;
-  right: 10px;
-  top: 0;
-  */
 }
 
 .header-right button {
@@ -735,4 +730,44 @@ h3 {
 
 .footer-bottom a:hover {
   text-decoration: underline;
+}
+
+/* Promotion footer */
+.promotion-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+
+  width: 100%;
+  font-family: 'Libre Franklin';
+  cursor: pointer;
+  background-color: rgb(51, 51, 51);
+  outline: none;
+  padding-top: 17px;
+  height: 35px;
+}
+
+.promotion-footer a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Libre Franklin';
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.promotion-footer-right {
+  float: right;
+}
+
+.promotion-footer-right a {
+  position: absolute;
+  font-family: 'Libre Franklin';
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  right: 160px;
+  text-transform: uppercase;
 }
