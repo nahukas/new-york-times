@@ -1,7 +1,7 @@
 # new-york-times
 
 Project for Microverse program that mimics a New York Times webpage article.
-Based on Odin Project (https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
+Based on [Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
 # Technologies used
 
@@ -10,8 +10,8 @@ Based on Odin Project (https://www.theodinproject.com/courses/html5-and-css3/les
 
 # Authors
 
-- Luis Novoa (github.com/luis-novoa)
-- Nahuel Castro (github.com/nahukas)
+- [Luis Novoa](https://www.github.com/luis-novoa)
+- [Nahuel Castro](https://www.github.com/nahukas)
 
 # Live version
 
