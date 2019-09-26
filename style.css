@@ -1,7 +1,7 @@
 /* General */
 
 * {
-  font-family: 'Domine', serif; /*Franklink */
+  font-family: 'Domine', serif;
 }
 
 /* header */
@@ -14,10 +14,10 @@
   bottom: 0;
   left: 0;
 
-  background: #ffffff;
+  background: #fff;
   border-bottom: 1px solid #e2e2e2;
 
-  color: #333333;
+  color: #333;
   padding: 4px 15px 2px 15px;
 
   z-index: 10;
@@ -50,7 +50,7 @@
 }
 
 .header-li a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   vertical-align: center;
 }
@@ -117,7 +117,9 @@
 .main-article figcaption {
   width: 73%;
 }
+
 /* Paragraph text */
+
 .paragraph-text {
   width: 50%;
   margin: 0 auto;
@@ -158,13 +160,13 @@ figcaption {
   margin-top: 5px;
 }
 .figcap1 {
-  color: #666666;
+  color: #666;
   font-size: 13px;
   line-height: 20px;
 }
 
 .figcap2 {
-  color: #888888;
+  color: #888;
   font-size: 12px;
 }
 
@@ -174,12 +176,12 @@ figcaption {
   width: 50%;
   margin: 30px auto;
   font-weight: 700;
-  color: #333333;
+  color: #333;
 }
 
 .author a {
   text-decoration: underline;
-  color: #333333;
+  color: #333;
 }
 
 .social {
@@ -200,7 +202,7 @@ figcaption {
 .comments {
   float: right;
   margin-bottom: 20px;
-  color: #333333;
+  color: #333;
 }
 
 .social-buttons li {
@@ -216,9 +218,9 @@ figcaption {
 }
 
 .social-buttons div:hover {
-  background: #ffffff;
+  background: #fff;
   border-radius: 50%;
-  border: 1px solid #888888;
+  border: 1px solid #888;
 }
 
 .social-buttons i {
@@ -398,7 +400,7 @@ figcaption {
   width: 50%;
   margin: 30px auto;
   font-size: 12px;
-  color: #999999;
+  color: #999;
   line-height: 16px;
 }
 
@@ -430,7 +432,7 @@ figcaption {
   width: 95%;
   margin: 30px auto 50px auto;
   position: relative;
-  border-top: 1px solid #333333;
+  border-top: 1px solid #333;
   padding-top: 20px;
   padding-bottom: 80px;
 }
@@ -439,7 +441,7 @@ figcaption {
   font-family: 'Libre Franklin';
   font-size: 18px;
   font-weight: 700;
-  color: #000000;
+  color: #000;
   margin-bottom: 25px;
 }
 
@@ -453,7 +455,7 @@ figcaption {
   font-family: 'Libre Franklin';
   font-weight: 400;
   font-size: 14px;
-  color: #666666;
+  color: #666;
 }
 
 .right {
@@ -492,7 +494,7 @@ figcaption {
 
 .right {
   font-size: 10px;
-  color: #999999;
+  color: #999;
   line-height: 16px;
 }
 
@@ -539,7 +541,7 @@ figcaption {
   font-family: 'Libre Franklin';
   font-size: 14px;
   font-weight: 700;
-  color: #000000;
+  color: #000;
   margin-bottom: 25px;
 }
 
@@ -559,11 +561,11 @@ figcaption {
   line-height: 22px;
   font-weight: 500;
   margin: 5px 0;
-  color: #000000;
+  color: #000;
 }
 
 .figcaption-title:hover {
-  color: #666666;
+  color: #666;
 }
 
 .figcaption-photographer {
@@ -571,21 +573,21 @@ figcaption {
   text-align: right;
   line-height: 14px;
   font-weight: 500;
-  color: #666666;
+  color: #666;
 }
 
 .figcaption-date {
   font-size: 12px;
   line-height: 22px;
   font-weight: 500;
-  color: #666666;
+  color: #666;
 }
 
 .middle {
   margin: 0 2%;
 }
 
-/*most popular */
+/* most popular */
 
 .most-popular {
   float: left;
@@ -661,7 +663,7 @@ footer {
 .footer-left-list li a {
   font-family: 'Libre Franklin';
   font-size: 13px;
-  color: #000000;
+  color: #000;
   text-decoration: none;
 }
 
@@ -691,7 +693,7 @@ h3 {
 .subscribe li a {
   font-family: 'Libre Franklin';
   font-size: 11px;
-  color: #000000;
+  color: #000;
   text-decoration: none;
 }
 
