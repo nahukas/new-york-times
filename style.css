@@ -1,0 +1,764 @@
+/* General */
+
+* {
+  font-family: "Domine", serif;
+}
+
+/* header */
+.header {
+  height: 36px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  color: #333;
+  padding: 4px 15px 2px 15px;
+  z-index: 10;
+}
+
+.header div {
+  transition: all 0.6s ease 0s;
+}
+
+.wrapper {
+  max-width: 1605px;
+  min-width: 1000px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left ul {
+  padding-top: 1px;
+  list-style: none;
+}
+
+.header-li {
+  float: left;
+  display: list-item;
+  margin: 10px 10px;
+}
+
+.header-li a {
+  color: #000;
+  text-decoration: none;
+  vertical-align: center;
+}
+
+.header-section {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.header-center {
+  width: 100%;
+  position: absolute;
+}
+
+.header-center span {
+  text-align: center;
+  display: block;
+}
+
+.subscribe svg {
+  height: 14px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.header-center span svg {
+  height: 26px;
+  margin: 6px auto 0;
+}
+
+.header-right {
+  float: right;
+  padding-top: 5px;
+}
+
+.header-right button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Libre Franklin", sans-serif;
+  transition: ease 0.6s;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 11px;
+  padding: 8px 9px 6px;
+  text-transform: uppercase;
+}
+
+/* article */
+
+.main-article {
+  margin-top: 80px;
+}
+
+.main-article h1 {
+  width: 33%;
+  padding-right: 17%;
+  margin: 20px auto;
+  font-style: italic;
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+figcaption {
+  margin-top: 5px;
+}
+
+.main-article figcaption {
+  width: 73%;
+}
+
+/* Paragraph text */
+
+.paragraph-text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.paragraph-text p {
+  display: block;
+  clear: both;
+  margin: 0 0 15px 0;
+  font-family: "Domine", serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+}
+
+.paragraph-text a {
+  color: #326891;
+}
+
+.paragraph-text h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+figure {
+  width: 70%;
+  margin: 0 auto 30px auto;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.figcap1 {
+  color: #666;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.figcap2 {
+  color: #888;
+  font-size: 12px;
+}
+
+/* author */
+
+.author {
+  width: 50%;
+  margin: 30px auto;
+  font-weight: 700;
+  color: #333;
+}
+
+.author a {
+  text-decoration: underline;
+  color: #333;
+}
+
+.social {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+#social-date {
+  float: left;
+}
+
+.social li,
+.comments li {
+  display: inline-block;
+}
+
+.social-buttons,
+.comments {
+  float: right;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.social-buttons li {
+  margin-right: 5px;
+}
+
+.social-buttons div {
+  width: 25px;
+  background: #dadada;
+  border-radius: 50%;
+  height: 25px;
+  cursor: pointer;
+}
+
+.social-buttons div:hover {
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #888;
+}
+
+.social-buttons i {
+  position: relative;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.fa-facebook-f {
+  padding-left: 7px !important;
+}
+
+/* asides */
+.sign-up {
+  position: absolute;
+  left: 80%;
+  top: 170%;
+  width: 15%;
+}
+
+.sign-up h2 {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 24px;
+}
+
+.sign-up p {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.sign-up button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Libre Franklin", sans-serif;
+  transition: ease 0.6s;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 11px;
+  padding: 8px 9px 6px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.editors-pick {
+  position: absolute;
+  left: 80%;
+  top: 265%;
+  width: 20%;
+}
+
+.editors-pick hr {
+  width: 75%;
+  margin: 15px 0;
+  position: relative;
+}
+
+.theory img {
+  width: 100%;
+}
+
+.editors-pick figure {
+  margin: 0;
+  display: inline-block;
+}
+
+.editors-pick figure img {
+  float: left;
+  position: relative;
+  width: 50%;
+  margin: 10px 0;
+}
+
+.editors-pick figure figcaption {
+  float: right;
+  position: relative;
+  width: 50%;
+  font-size: 12px;
+  box-sizing: border-box;
+  height: 107px;
+  padding: 5px 10px;
+}
+
+.editors-pick figure .figcaption-bold {
+  float: right;
+  position: relative;
+  width: 50%;
+}
+
+#title-bold {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* theory box */
+
+.theory {
+  width: 70%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.theory h2 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.theory-info {
+  width: 24%;
+  float: left;
+  margin-right: 1%;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 16px;
+}
+
+.theory-info p {
+  font-size: 0.8em;
+  font-weight: 300;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.theory-info span {
+  font-size: 0.8em;
+  font-weight: 700;
+  margin-right: 3px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.theory-summary {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#theory-info-row-1 {
+  position: absolute;
+  top: 33%;
+}
+
+#theory-info-row-2 {
+  position: absolute;
+  top: 75%;
+}
+
+#theory-hr {
+  width: 5%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #4d4d4d;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* video */
+
+.video {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.video iframe {
+  width: 100%;
+  height: 350px;
+}
+
+/* details */
+
+.details {
+  width: 50%;
+  margin: 30px auto;
+  font-size: 12px;
+  color: #999;
+  line-height: 16px;
+}
+
+.comments {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+}
+
+.comments button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Libre Franklin", sans-serif;
+  transition: ease 0.6s;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 11px;
+  padding: 12px 100px;
+  text-transform: uppercase;
+}
+
+/* newsletter */
+.newsletter {
+  clear: both;
+  width: 95%;
+  margin: 30px auto 50px auto;
+  position: relative;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.newsletter h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.left {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.left span {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.right {
+  float: left;
+  width: 50%;
+  font-size: 10px;
+  color: #999;
+  line-height: 16px;
+}
+
+.signup-input input {
+  width: 78%;
+  font-size: 13px;
+  line-height: 15px;
+  height: 40px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 5px;
+  border-radius: 3px 0 0 3px;
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+  float: left;
+}
+
+.signup-input button {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  height: 40px;
+  background: #6288a5;
+  color: white;
+  width: 20%;
+  border: 1px solid #326891;
+  border-radius: 0 3px 3px 0;
+}
+
+.more-space a {
+  text-decoration: none;
+}
+
+.footer-bottom a {
+  color: #999;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.right a {
+  color: #326891;
+  text-decoration: none;
+}
+
+.promotion-footer a {
+  color: white;
+  text-decoration: none;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.header-footer a {
+  float: right;
+  font-size: 10px;
+  color: #6288a5;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.promotion-footer-right a {
+  position: absolute;
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  right: 160px;
+  text-transform: uppercase;
+}
+
+.footer-left-list li a {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 13px;
+  color: #000;
+  text-decoration: none;
+}
+
+.subscribe li a {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 11px;
+  color: #000;
+  text-decoration: none;
+}
+
+.subtitle li a {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.right a:hover {
+  text-decoration: underline;
+}
+
+.privacy {
+  border-right: solid 1px rgb(153, 153, 153);
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+/* More in Space & Cosmos */
+
+.more-space-most-popular {
+  margin: 0 auto;
+  clear: both;
+  width: 95%;
+}
+
+.more-space {
+  float: left;
+  width: 73%;
+  margin-right: 2%;
+  border-top: 1px solid black;
+  padding-top: 30px;
+}
+
+.more-space a:hover {
+  text-decoration: underline;
+}
+
+.more-space h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.more-space-row {
+  width: 100%;
+  display: inline-block;
+}
+
+.more-space-item {
+  width: 32%;
+  float: left;
+}
+
+.figcaption-title {
+  font-family: "Domine", serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  margin: 5px 0;
+  color: #000;
+}
+
+.figcaption-title:hover {
+  color: #666;
+}
+
+.figcaption-photographer {
+  font-size: 10px;
+  text-align: right;
+  line-height: 14px;
+  font-weight: 500;
+  color: #666;
+}
+
+.figcaption-date {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #666;
+}
+
+.middle {
+  margin: 0 2%;
+}
+
+/* most popular */
+
+.most-popular {
+  float: left;
+  width: 25%;
+  border-top: 1px solid black;
+  padding-top: 30px;
+}
+
+.most-popular h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.most-popular li {
+  display: block;
+  border-top: 1px solid #e2e2e2;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+}
+
+/* editors pick bottom */
+.editors-pick-bottom {
+  border-top: 1px solid black;
+  padding-top: 30px;
+}
+
+/* footer */
+footer {
+  clear: both;
+  width: 95%;
+  margin: 0 auto;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+}
+
+.header-footer {
+  clear: both;
+  margin-bottom: 45px;
+}
+
+.header-footer span svg {
+  height: 26px;
+  margin: 6px auto 0;
+  float: left;
+}
+
+.footer-left-list {
+  float: left;
+  width: 16%;
+}
+
+.footer-left-list li {
+  display: block;
+  margin: 10px 0;
+}
+
+.footer-left-list li a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.subscribe {
+  float: left;
+  padding-left: 20px;
+  border-left: 1px solid #e2e2e2;
+}
+
+.subscribe li {
+  display: block;
+  margin: 10px 0;
+}
+
+.subscribe-email {
+  margin-top: 20px;
+}
+
+/* footer copyrights */
+.footer-bottom {
+  clear: both;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 11px;
+  text-decoration: none;
+  margin: 60px auto 30px auto;
+  width: 95%;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+}
+
+/* Promotion footer */
+.promotion-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-family: "Libre Franklin", sans-serif;
+  cursor: pointer;
+  background-color: rgb(51, 51, 51);
+  outline: none;
+  padding-top: 17px;
+  height: 35px;
+}
+
+.promotion-footer-right {
+  float: right;
+}
